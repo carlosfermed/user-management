@@ -1,6 +1,6 @@
 const express = require("express");
 const accountRouter = express.Router();
-const USERS_BBDD = require("../bbdd");
+const USERS_BBDD = require("../../bbdd");
 
 accountRouter.use((req, res, next) => {
 
